@@ -174,6 +174,7 @@ public class TicTacToe {
                 });
             }
         }
+        // reset button logic
         resetBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -188,6 +189,7 @@ public class TicTacToe {
                 }
                 resetBtn.setVisible(false);
                 gameOver = false;
+                winInfo = "tie";
                 currentPlayer = playerX;
                 textLabel.setText("Player's: " + currentPlayer + " turn");
             }
