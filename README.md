@@ -20,3 +20,12 @@ This application is a classic two-player game (X and O), played on a 3x3 board. 
 - Java
 - Java AWT (graphics, event handling)
 - Java Swing (GUI components: JFrame, JButton, JLabel, JPanel)
+
+
+## Author
+
+[jupikk](https://github.com/jupikk)
+
+## License
+
+Educational project, created for learning Java programming.
